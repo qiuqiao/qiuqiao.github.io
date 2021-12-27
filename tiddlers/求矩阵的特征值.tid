@@ -1,16 +1,22 @@
 created: 20211227115136783
 creator: TidGiUser
-modified: 20211227121130110
-modifier: TidGiUser
-tags: 
+due: 20211231173336620
+factor: 2.65
+interval: 4.00
+modified: 20211227173336622
+modifier: 邱桥
+tags: ?
 title: 求矩阵的特征值
 tmap.id: 0e61098a-810b-4ecb-b275-c824513de59a
 type: text/vnd.tiddlywiki
 
 !!! 题目：
-* 求[[矩阵]]……的特征值
+* 求[[矩阵]]……的[[特征值]]
 !!! 方法：
 *''满足$$|A-\lambda E|=0$$的$$\lambda$$值即为[[特征值]]''
+
+(参见：[[行列式]])
+
 !!! 步骤：
 # 先化$$A-\lambda E$$为一个矩阵
 # 解出这个矩阵[[行列式]]的值

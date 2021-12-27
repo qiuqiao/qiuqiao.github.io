@@ -1,8 +1,8 @@
 created: 20211227122429533
 creator: TidGiUser
-modified: 20211227125505723
-modifier: TidGiUser
-tags: 
+modified: 20211227173422572
+modifier: 邱桥
+tags: ?
 title: 求方阵对应的对角阵及对应可逆变换矩阵
 tmap.id: 9d8ca3e5-55ba-4627-a293-3dc895d42682
 type: text/vnd.tiddlywiki
@@ -16,8 +16,8 @@ type: text/vnd.tiddlywiki
  &\lambda_2&&\\
  &&\ddots\\
  &&&\lambda_n
-\end{pmatrix}$$其中$$\lambda_1,\lambda_2,...\lambda_n$$都是原方阵的[[特征值]]
+\end{pmatrix}$$其中$$\lambda_1,\lambda_2,...\lambda_n$$都是原[[方阵]]的[[特征值]]
 # ''不重复的特征值对应的$$\xi$$自己[[规范正交化]]''
 # ''重复的特征值对应的$$\xi$$放在一起[[规范正交化]]''
-# ''将正交化的所有向量从左向右依次排列成一个矩阵，该矩阵就是方阵的可逆变换矩阵''
+# ''将正交化的所有[[向量]]从左向右依次排列成一个矩阵，该矩阵就是方阵的可逆变换矩阵''
 

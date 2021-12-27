@@ -1,7 +1,7 @@
 created: 20211227113817511
 creator: TidGiUser
-modified: 20211227120200742
-modifier: TidGiUser
+modified: 20211227173737853
+modifier: 邱桥
 tags: 
 title: 规范正交化
 tmap.id: 4ce6df62-db40-4349-8178-eca071351787
@@ -15,8 +15,9 @@ type: text/vnd.tiddlywiki
 * $$b_1=a_1$$
 
 * $$b_n=a_n - \frac{[b_{1},a_n]}{[b_{1},b_{1}]}b_{1}-\frac{[b_{2},a_n]}{[b_{2},b_{2}]}b_{2}...-\frac{[b_{n-1},a_n]}{[b_{n-1},b_{n-1}]}b_{n-1}$$
-* 
 * $$e_n=\frac{b_n}{||b_n||}$$
+
+（参见：[[向量的内积]]，[[向量的模]]）
 
 其中，$$e_1,e_2,...e_n$$就是规范正交化后的结果 
 

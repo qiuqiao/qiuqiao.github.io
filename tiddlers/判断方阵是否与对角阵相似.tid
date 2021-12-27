@@ -1,14 +1,14 @@
 created: 20211227121728949
 creator: TidGiUser
-modified: 20211227130643649
-modifier: TidGiUser
-tags: 
+modified: 20211227173435028
+modifier: 邱桥
+tags: ?
 title: 判断方阵是否与对角阵相似
 tmap.id: 71c4de86-01fb-40fd-bc4e-5ef69daf6776
 type: text/vnd.tiddlywiki
 
 !!! 题目：
-* 判断方阵是否与[[对角阵相似]]/''是否满足$$p^{-1} A P=A$$''
+* 判断[[方阵]]是否与[[对角阵相似]]/''是否满足$$p^{-1} A P=A$$''
 !!! 方法：
 * ''若方阵的[[特征向量]]个数$$=$$方阵阶数，相似/满足''
 *'' 若方阵的特征向量个数$$\ne$$方阵阶数，相似/满足''
