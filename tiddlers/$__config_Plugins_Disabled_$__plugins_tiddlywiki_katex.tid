@@ -1,8 +1,8 @@
 created: 20211227133818413
 creator: TidGiUser
-modified: 20211227134703757
+modified: 20211227140025523
 modifier: TidGiUser
 title: $:/config/Plugins/Disabled/$:/plugins/tiddlywiki/katex
 type: text/vnd.tiddlywiki
 
-yes
+no
