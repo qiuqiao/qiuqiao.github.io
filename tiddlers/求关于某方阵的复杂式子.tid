@@ -1,0 +1,23 @@
+created: 20211227124910067
+creator: TidGiUser
+modified: 20211227132829912
+modifier: TidGiUser
+tags: 
+title: 求关于某方阵的复杂式子
+tmap.id: 4da027f3-6adc-45ad-874f-44de47813984
+type: text/vnd.tiddlywiki
+
+!!! 题目：
+* 已知某方阵，求关于某方阵的复杂式子$$\phi(A) $$
+!!! 方法：
+# [[判断方阵是否与对角阵相似]]
+#[[求方阵对应的对角阵及对应可逆变换矩阵]]，令可逆变换矩阵为P
+# 使用公式：$$\phi(A)=P·
+\begin{pmatrix}
+\phi(\lambda_1)&&&\\
+&\phi(\lambda_2)\\
+&&\ddots\\
+&&&&\phi(\lambda_n)
+\end{pmatrix}
+·P^T $$
+

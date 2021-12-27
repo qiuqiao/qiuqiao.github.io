@@ -1,0 +1,19 @@
+created: 20211227115136783
+creator: TidGiUser
+modified: 20211227121130110
+modifier: TidGiUser
+tags: 
+title: 求矩阵的特征值
+tmap.id: 0e61098a-810b-4ecb-b275-c824513de59a
+type: text/vnd.tiddlywiki
+
+!!! 题目：
+* 求[[矩阵]]……的特征值
+!!! 方法：
+*''满足$$|A-\lambda E|=0$$的$$\lambda$$值即为[[特征值]]''
+!!! 步骤：
+# 先化$$A-\lambda E$$为一个矩阵
+# 解出这个矩阵[[行列式]]的值
+# 令值等于零，解出所有$$\lambda$$
+# 写出答案，注意多个相同的根对应不同的特征值，如：$$\lambda_1=2,\lambda_2=1,\lambda_3=1$$
+# 检查$$\lambda$$个数，必须等于方阵的阶数
