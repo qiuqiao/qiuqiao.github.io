@@ -1,0 +1,10 @@
+created: 20211229122107013
+creator: 邱桥
+modified: 20211229122344563
+modifier: 邱桥
+tags: 
+title: 消去式子里的伴随矩阵
+tmap.id: 59f0a1a0-654f-45e0-9758-a452c9d9b251
+type: text/vnd.tiddlywiki
+
+利用$$A^*A=AA^*=|A|E$$，通过乘以[[矩阵]]$$A$$消去题目式子里的[[伴随矩阵]]$$A^*$$

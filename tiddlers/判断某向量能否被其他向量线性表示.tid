@@ -1,0 +1,10 @@
+created: 20211229124305891
+creator: 邱桥
+modified: 20211229124359346
+modifier: 邱桥
+tags: 
+title: 判断某向量能否被其他向量线性表示
+tmap.id: dfa4f6f0-bb84-447e-af32-819b3da651ff
+type: text/vnd.tiddlywiki
+
+相当于某非齐次线性方程组是否有唯一解
