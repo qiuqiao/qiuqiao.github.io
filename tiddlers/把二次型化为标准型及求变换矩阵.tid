@@ -1,0 +1,14 @@
+created: 20211230140003687
+creator: 邱桥
+modified: 20211230140856982
+modifier: 邱桥
+tags: 
+title: 把二次型化为标准型及求变换矩阵
+tmap.id: b21eb9f2-d381-4ad7-afb3-cdc20cff86c7
+type: text/vnd.tiddlywiki
+
+# [[求二次型对应的系数矩阵]]A
+# [[求矩阵的特征值]]$$\lambda_1, \lambda_2,...,\lambda_3$$
+# 标准型是$$f=\lambda_1 y_1^2+\lambda_2 y_2^2+...+\lambda_n y_n^2$$
+#*原来的式子有几个x，这里就有几个y
+# [[求方阵对应的对角阵及对应可逆变换矩阵]]，其中的可逆变换矩阵即为所求的变换矩阵

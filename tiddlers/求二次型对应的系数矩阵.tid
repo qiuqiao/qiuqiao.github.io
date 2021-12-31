@@ -1,0 +1,10 @@
+created: 20211230135213441
+creator: 邱桥
+modified: 20211230140002520
+modifier: 邱桥
+tags: 线性代数
+title: 求二次型对应的系数矩阵
+tmap.id: ef8b8511-bf7c-4865-a4ee-fc1f79e83353
+type: text/vnd.tiddlywiki
+
+设$$f(x)=a_{11}x_1^2+...+a_{nn}x_n^2+2a_{ij}x_i  x_j+...$$，那么系数矩阵中处于i行j列的元素$$A_{i,j}=a_{ij}=a_{ji}$$
