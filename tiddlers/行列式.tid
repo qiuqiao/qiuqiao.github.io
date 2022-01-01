@@ -1,0 +1,12 @@
+created: 20220101050357320
+creator: 邱桥
+modified: 20220101050605205
+modifier: 邱桥
+tags: 
+title: 行列式
+tmap.id: 19971458-6e22-461a-8845-1cfeb01e1dd3
+type: text/vnd.tiddlywiki
+
+性质: |kA| = k^n |A|
+
+*  |-A| = (-1)^n |A|
