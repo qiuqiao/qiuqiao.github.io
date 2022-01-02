@@ -1,0 +1,10 @@
+created: 20220102080319516
+creator: 邱桥
+modified: 20220102080906172
+modifier: 邱桥
+tags: 
+title: 矩阵相似
+tmap.id: cb206093-0d98-43bf-a163-fd820d5cbcf8
+type: text/vnd.tiddlywiki
+
+定义：对方阵A、B，存在可逆阵P，使得 $$B=P^{-1}AP$$

@@ -5,7 +5,7 @@ config.vis: {"physics":{"forceAtlas2Based":{"springConstant":0.09}}}
 created: 20150331114808577
 creator: TidGiUser
 isview: true
-modified: 20211227132729312
-modifier: TidGiUser
+modified: 20220102081613116
+modifier: 邱桥
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki

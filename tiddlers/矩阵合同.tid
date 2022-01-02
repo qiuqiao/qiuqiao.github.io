@@ -1,0 +1,10 @@
+created: 20220102081032973
+creator: 邱桥
+modified: 20220102081039403
+modifier: 邱桥
+tags: 
+title: 矩阵合同
+tmap.id: 2d92f9b9-094c-4369-a494-cfac7e4113cd
+type: text/vnd.tiddlywiki
+
+定义：对方阵A、B，存在可逆阵P使得 $$B=P^{T}AP$$

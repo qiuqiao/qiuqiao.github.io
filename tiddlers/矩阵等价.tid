@@ -1,0 +1,12 @@
+created: 20220102081100116
+creator: 邱桥
+modified: 20220102081333068
+modifier: 邱桥
+tags: 
+title: 矩阵等价
+tmap.id: b2ab6cac-3317-4174-8342-9e11704c7a55
+type: text/vnd.tiddlywiki
+
+定义：对矩阵A、B，存在可逆阵P和Q，使得 $$B = PAQ$$
+
+充要条件：A和B的秩相等
