@@ -1,0 +1,12 @@
+created: 20220101111945615
+creator: 邱桥
+modified: 20220101112042181
+modifier: 邱桥
+tags: 
+title: 求行列式的值
+tmap.id: a0eeedf1-1e78-415b-8fe0-68bea32e90e1
+type: text/vnd.tiddlywiki
+
+[[特征值]]法：
+
+* 所有特征值的乘积即为行列式的值，重根需要重复计算

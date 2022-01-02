@@ -1,8 +1,8 @@
 created: 20211227120013727
 creator: TidGiUser
-modified: 20211227173350884
+modified: 20220101051618193
 modifier: 邱桥
-tags: ?
+tags: 
 title: 求矩阵的特征向量
 tmap.id: 02725334-8f61-4369-b7fa-3dc98ae02509
 type: text/vnd.tiddlywiki
@@ -12,5 +12,5 @@ type: text/vnd.tiddlywiki
 !!! 步骤：
 # [[求矩阵的特征值]]
 # $$(A-\lambda E)$$化为一个[[矩阵]]
-# 对每个[[特征值]]，[[求线性方程组的通解]]
+# 对每个[[特征值]]，对$$(A-\lambda E)$$[[求线性方程组的通解]]
 #若通解是两个[[向量]]的[[线性组合]]，这个特征值有两个特征向量，通解给的两个向量乘以常数
