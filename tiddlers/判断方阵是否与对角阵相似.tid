@@ -1,6 +1,9 @@
 created: 20211227121728949
 creator: TidGiUser
-modified: 20220101113857105
+due: 20220102090920249
+factor: 2.30
+interval: 0.00
+modified: 20220102090920250
 modifier: 邱桥
 tags: ?
 title: 判断方阵是否与对角阵相似

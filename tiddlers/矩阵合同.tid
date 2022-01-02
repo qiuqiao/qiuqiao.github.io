@@ -1,10 +1,20 @@
+caption: {{||Excerpt}}
 created: 20220102081032973
 creator: 邱桥
-modified: 20220102081039403
+due: 20220102090941513
+factor: 2.30
+interval: 0.00
+modified: 20220102091144347
 modifier: 邱桥
-tags: 
+tags: ?
 title: 矩阵合同
 tmap.id: 2d92f9b9-094c-4369-a494-cfac7e4113cd
 type: text/vnd.tiddlywiki
 
-定义：对方阵A、B，存在可逆阵P使得 $$B=P^{T}AP$$
+
+· [[合同的定义]]
+
+<<<.tc-fish-quote
+{{定义：对方阵A、B，存在【...】阵P使得 $B=P^TAP$}}
+<<<
+

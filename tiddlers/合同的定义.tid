@@ -1,0 +1,14 @@
+caption: {{||Cloze}}
+created: 20220102090723842
+creator: 邱桥
+due: 20220103090723842
+factor: 2.50
+interval: 1
+modified: 20220102091144344
+modifier: 邱桥
+tags: 矩阵合同 ?
+title: 合同的定义
+tmap.id: 13e3f523-06c0-4859-810f-006efa92a7bd
+type: text/vnd.tiddlywiki
+
+定义：对方阵A、B，存在__可逆^^1^^__阵P使得 __$$B=P^TAP$$^^^^__
