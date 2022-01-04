@@ -1,6 +1,6 @@
 created: 20211227075918364
 creator: TidGiUser
-modified: 20220103061450322
+modified: 20220104005505901
 modifier: 邱桥
 tags: 
 title: 索引
@@ -16,3 +16,7 @@ type: text/vnd.tiddlywiki
 
 * [[时间管理]]
 * [[算法]]
+
+编程语言
+
+*[[C++]]
