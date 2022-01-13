@@ -1,12 +1,53 @@
 created: 20220101050357320
 creator: 邱桥
-modified: 20220101050605205
+modified: 20220112134255999
 modifier: 邱桥
 tags: 
 title: 行列式
 tmap.id: 19971458-6e22-461a-8845-1cfeb01e1dd3
 type: text/vnd.tiddlywiki
 
-性质: |kA| = k^n |A|
+设A为n阶方阵
+k为任意实数
 
-*  |-A| = (-1)^n |A|
+!! 本质
+对空间进行线性变换Ａ，使得空间被压缩／扩大为｜A｜倍，若变换的过程空间曾被压缩到０倍，则为负数
+
+!! 性质:
+
+#某行/列乘以一个非零数，等于行列式乘以这个数，即A=($$\vec x$$|A,,2,,)，且$$\vec x$$为列向量，则k|A|=k|(k$$\vec x$$|A,,2,,)|
+#*本质：
+#**线性变换后的其中一个基向量扩大/缩小了k倍，空间大小也扩大/缩小了k倍
+#*推论：
+#**|kA| = k^n |A|
+#**  |-A| = (-1)^n |A|
+
+#互换两行/列，行列式变号
+#*互换的过程中必有一瞬间两个基向量重合，此时空间压缩到0倍
+# 把A的某一行/列乘以k再加到另一行/列，行列式的值不变
+#某行（列）为两项相加减时，行列式可拆成两个行列式相加减
+
+!!! 推论
+#两行（列）相同或成比例时，行列式为0
+!! 计算
+# 利用性质，化简A为三角形矩阵
+# 对角线乘起来，就是行列式|A|的值
+
+!! 题型
+#$$\left| \begin{array}{cccc}
+x&a&\cdots&a \\
+a&x&\cdots&a\\
+\vdots&&\ddots&\vdots\\
+a&a&\cdots &x
+\end{array} \right|=(x-a)^{n-1}[x+(n-1)a]$$
+
+#范德蒙德行列式$$
+\left|\begin{array}{cccc} 
+    1 &    1    &\cdots& 1 \\ 
+    x_1 &    x_2   &\cdots& x_3\\ 
+		\vdots&\vdots&\ddots&\vdots\\
+    x_1^2 & x_2^2 &\cdots& x_3^2
+\end{array}\right|
+=
+\prod \limits_{1\leq j<i\leq n} (x_i-x_j)
+$$
