@@ -2,19 +2,19 @@ created: 20220122073228884
 creator: 邱桥
 draft.of: 函数
 draft.title: 函数
-modified: 20220122074816534
+modified: 20220122074915852
 modifier: 邱桥
 tags: 微积分
 title: Draft of '函数' by 邱桥
 tmap.id: b8b43ef9-9b8a-4d04-97f0-b0d72a8561a2
 type: text/vnd.tiddlywiki
 
-概念
+! 概念
+!!定义
 
-定义
+* 一个自变量对应一个确定的因变量
 
-一个对应
-
+反函数
 
 [[基本初等函数]]
 
