@@ -1,0 +1,10 @@
+created: 20220122075307562
+creator: 邱桥
+modified: 20220122075346207
+modifier: 邱桥
+tags: 函数
+title: 严格单调函数
+tmap.id: d37820af-0eef-49a8-8928-06a7a2cef8ba
+type: text/vnd.tiddlywiki
+
+严格单调函数: 函数f(x)恒有导数f'(x)>0或f'(x)<0
