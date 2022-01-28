@@ -1,0 +1,16 @@
+caption: {{||Excerpt}}
+created: 20220128135524448
+creator: 邱桥
+due: 20220129135524448
+interval: 1
+modified: 20220128135524448
+modifier: 邱桥
+priority: 0
+tags: pandas ?
+title: 导入pandas
+tmap.id: f050d129-19ca-46d9-8aa0-30d7516b7429
+type: text/vnd.tiddlywiki
+
+
+
+*import pandas as pd
