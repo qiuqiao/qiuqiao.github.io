@@ -1,6 +1,6 @@
 created: 20211227075918364
 creator: TidGiUser
-modified: 20220122071822524
+modified: 20220122094009876
 modifier: 邱桥
 tags: 
 title: 索引
@@ -20,3 +20,5 @@ type: text/vnd.tiddlywiki
 编程语言
 
 *[[C++]]
+*Python
+**[[pandas]]

@@ -1,0 +1,39 @@
+created: 20220122094021146
+creator: 邱桥
+modified: 20220122095133518
+modifier: 邱桥
+tags: Python
+title: pandas
+tmap.id: 342928e0-46ea-4388-8da8-f91ec21d496d
+type: text/vnd.tiddlywiki
+
+!! 介绍
+是一个开源的 Python类库：用于数据分析、数据处理、数据可视化
+
+优势：
+
+* 高性能
+* 容易使用的数据结构
+* 容易使用的数据分析工具
+* 很方便和其它类库一起使用
+** numpy:用于数学计算
+** scikit- learn:用于机器学习
+
+!! 使用
+读取文件
+
+* 文本文件（txt、csv、tsv）
+**data=pd.read_csv(__文件地址__)
+*excel文件
+**data=pd.read_excel(__文件地址__)
+*mysql文件
+**data=pd.read_sql(__文件地址__)
+
+可用属性
+
+* shape：返回(行数,列数)
+
+可用函数
+
+* head()：查看前几行数据
+* 
