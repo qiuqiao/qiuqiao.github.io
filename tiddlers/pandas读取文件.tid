@@ -3,7 +3,7 @@ created: 20220128134655573
 creator: 邱桥
 due: 20220129134655573
 interval: 1
-modified: 20220128134745029
+modified: 20220128142812416
 modifier: 邱桥
 priority: 0
 tags: pandas ?
@@ -13,9 +13,26 @@ type: text/vnd.tiddlywiki
 
 
 
-* 文本文件（txt、csv、tsv）
-**data=pd.read_csv(__文件地址__)
-*excel文件
-**data=pd.read_excel(__文件地址__)
-*mysql文件
-**data=pd.read_sql(__文件地址__)
+
+[[pandas读取文本文件]]
+
+<<<.tc-fish-quote
+{{pandas读取文本文件}}
+<<<
+
+
+
+[[pandas读取excel文件]]
+
+<<<.tc-fish-quote
+{{pandas读取excel文件}}
+<<<
+
+
+
+[[pandas读取mysql文件]]
+
+<<<.tc-fish-quote
+{{pandas读取mysql文件}}
+<<<
+

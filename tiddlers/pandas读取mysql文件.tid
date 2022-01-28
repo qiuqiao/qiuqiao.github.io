@@ -1,0 +1,31 @@
+caption: {{||Excerpt}}
+created: 20220128142631792
+creator: 邱桥
+due: 20220129142631792
+interval: 1
+modified: 20220128142915857
+modifier: 邱桥
+priority: 0
+tags: pandas读取文件 ?
+title: pandas读取mysql文件
+tmap.id: fa46616c-6c92-4fd6-959b-9fea1d27e92b
+type: text/vnd.tiddlywiki
+
+
+!!连接mysql数据库
+```
+import pymysql
+conn = pymysql.connect(
+        host='127.0.0.1',
+        user='root',
+        password='12345678',
+        database='test',
+        charset='utf8'
+    )
+```
+
+!!导入文件
+
+```
+data=pd.read_sql(mysql语句, con=conn)
+```

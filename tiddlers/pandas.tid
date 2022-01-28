@@ -1,7 +1,7 @@
 caption: {{||Excerpt}}
 created: 20220122094021146
 creator: 邱桥
-modified: 20220128135531110
+modified: 20220128145447493
 modifier: 邱桥
 tags: Python ?
 title: pandas
@@ -38,12 +38,8 @@ type: text/vnd.tiddlywiki
 
 
 
-!! pandas可用操作
-!!! 属性
+[[pandas数据结构]]
 
-* shape：返回(行数,列数)
-
-!!! 方法
-
-* head()：查看前几行数据
-* 
+<<<.tc-fish-quote
+{{pandas数据结构}}
+<<<

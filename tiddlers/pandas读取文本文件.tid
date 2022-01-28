@@ -1,0 +1,27 @@
+caption: {{||Excerpt}}
+created: 20220128141752402
+creator: 邱桥
+due: 20220129141752401
+interval: 1
+modified: 20220128142404697
+modifier: 邱桥
+priority: 0
+tags: pandas读取文件 ?
+title: pandas读取文本文件
+tmap.id: 1967eb6a-b654-42cd-b792-c0afcc4d0319
+type: text/vnd.tiddlywiki
+
+!! 适用性
+* 以txt、csv、tsv等为后缀的文件
+* 采用逗号、空格、tab、换行等分割数据
+
+!! 方法
+
+```
+data = pd.read_csv(
+    文件地址,
+    sep=分隔符（默认为逗号）,
+    header=是否有标题行（列名），默认为有，没有则为None,
+    names=自己指定的列名列表
+)
+```
