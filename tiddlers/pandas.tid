@@ -1,7 +1,9 @@
 caption: {{||Excerpt}}
 created: 20220122094021146
 creator: 邱桥
-modified: 20220128145447493
+due: 20220129171135758
+interval: 2
+modified: 20220128171135758
 modifier: 邱桥
 tags: Python ?
 title: pandas
