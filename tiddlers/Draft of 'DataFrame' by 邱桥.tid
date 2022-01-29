@@ -5,7 +5,7 @@ draft.of: DataFrame
 draft.title: DataFrame
 due: 20220129143717620
 interval: 1
-modified: 20220129083830929
+modified: 20220129093028842
 modifier: 邱桥
 priority: 0
 tags: pandas数据结构 ?
@@ -104,6 +104,8 @@ df = pd.DataFrame(data)
 #count,mean,std,min,max：只查询单个统计数据
 #unique()：去重（仅Series）
 #value_counts()：某个值出现了多少次
+#cov()：协方差(矩阵)
+#corr()：相关系数(矩阵)
 
 !!! 其他
 
