@@ -5,7 +5,7 @@ draft.of: DataFrame
 draft.title: DataFrame
 due: 20220129143717620
 interval: 1
-modified: 20220128174828894
+modified: 20220129083830929
 modifier: 邱桥
 priority: 0
 tags: pandas数据结构 ?
@@ -43,36 +43,70 @@ df = pd.DataFrame(data)
 
 
 !! 方法
-!!! 查询
+!!! 查询与更改
 按数值、列表、区间、条件、函数五种方法
 查询时，结果是一维则返回Series，否则返回DataFrame
 
-** head()：查看前几行数据，返回DataFrame
-** df[列名]：查询一列
-** df[列名列表]：查询多列
-**df.loc[索引]：查询一行
-**df.loc索引列表：查询多行
+# head()：查看前几行数据，返回DataFrame
+# df[列名/列名列表]：查询一列/多列
+#loc[行标签,列标签]方法，根据行、列的标签值查询，可直接被更改。
+#*标签可以传入
+#*#具体的值
+#*#标签列表
+#*#标签的范围(格式为：起始标签:结束标签)（注意包括左右标签，和python的列表查询有所不同）
+#*#*例：df.loc['2018-01-03':'2018-01-05', 'bWendu']
+#*#*例：df.loc[:, "bWendu"] = df["bWendu"].str.replace("℃", "").astype('int32')
+#*#*意思是：筛选出df中所有的行，再筛选出标签为"bWendu"的列，此时筛选出了一列，让这个列等于一个新的列，这个新的列是"bWendu"这一列中所有字符串删除掉"℃"并转换为int32类型形成的新列
+#*#条件表达式
+#*#*例：df.loc[df["yWendu"]< -10, :]
+#*#*意思是："yWendu"标签所对应的值小于-10的所有行
+#*#*其中df["yWendu"]< -10返回一个Series，索引是df的索引，值是每一行"yWendu"标签对应的数据< -10的布尔值
+#*#函数（以Series为参数）
+#*#*例：df.loc[lambda df : (df["bWendu"]<=30) & (df["yWendu"]>=15), :]
+#*#*例2:
+#*#**def query_my_data(df):
+#*#***    return df.index.str.startswith("2018-09") & (df["aqiLevel"]==1)
+#*#**df.loc[query_my_data, :]
 
-*loc[行标签,列标签]方法，根据行、列的标签值查询，可直接被更改。标签可以传入
-*具体的值
-*标签列表
-*标签的范围(格式为：起始标签:结束标签)（注意包括左右标签，和python的列表查询有所不同）
-**例：df.loc['2018-01-03':'2018-01-05', 'bWendu']
-**例：df.loc[:, "bWendu"] = df["bWendu"].str.replace("℃", "").astype('int32')
-**意思是：筛选出df中所有的行，再筛选出标签为"bWendu"的列，此时筛选出了一列，让这个列等于一个新的列，这个新的列是"bWendu"这一列中所有字符串删除掉"℃"并转换为int32类型形成的新列
-*条件表达式
-**例：df.loc[df["yWendu"]< -10, :]
-**意思是："yWendu"标签所对应的值小于-10的所有行
+#df.iloc方法，根据行、列的数字位置查询
+#df.where方法
+#df.query方法
 
 
-1. 使用单个label值查询数据
-2. 使用值列表批量查询
-3. 使用数值区间进行范围查询
-4. 使用条件表达式查询
-5. 调用函数查询
+!!! 新增列
+# df.loc直接赋值：简单的Series之间的运算
+#*df.loc[:,新增列名]=新列（Series）
+# df.apply：添加单行/列，可用函数
+#*df.loc[:,新增列名]=df.apply(函数,axis=若为1，则新增列，为0则新增行)
+#*其中函数以行/列为参数（看axis是啥）
+# df.assign：添加多列，可用函数
+#*df.assign(新列名1（无需引号）=函数1,新列名2=函数2,...)
+#*返回新的对象，不会修改df本身
+# 先创建，再按条件分别赋值
+##新增空列df[新列名]=""
+##用loc方法对新列赋值
+#*例：
+#**df['wencha_type'] = ""
+#**df.loc[df["bWendu"]-df["yWendu"]>10, "wencha_type"] = "温差大"
+#**df.loc[df["bWendu"]-df["yWendu"]<=10, "wencha_type"] = "温差正常"
 
-2. df.iloc方法，根据行、列的数字位置查询
-3. df.where方法
-4. df.query方法
+!!! 统计
 
-set_index('ymd', inplace=True)：设置索引列为ymd这一列，直接改变这个DataFrame
+# describe()：查看所有数字列的所有统计数据，包括：
+#*count：计数
+#*mean：平均值
+#*std：标准差
+#*min：最小值
+#*25%
+#*50%：中位数
+#*75%
+#*max：最大值
+#count,mean,std,min,max：只查询单个统计数据
+#unique()：去重（仅Series）
+#value_counts()：某个值出现了多少次
+
+!!! 其他
+
+set_index('ymd', inplace=True)：设置索引列为ymd这一列，直接改变这个
+
+df[].value_counts()：返回每个值出现的次数
