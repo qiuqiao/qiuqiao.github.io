@@ -1,13 +1,23 @@
 created: 20220122075133640
 creator: 邱桥
-modified: 20220122075738841
+difficulty: 5
+due: 20220207083524524
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20220205083904596
 modifier: 邱桥
-tags: 函数
+reps: 1
+retrievability: 1
+review: 20220205083524524
+stability: 2
+tags: 函数 ?
 title: 反函数
 tmap.id: ab9d57e8-0ad7-4f64-bfa1-c09c09e09846
 type: text/vnd.tiddlywiki
 
-# [[严格单调函数]]必有反函数
+# [[严格单调函数]]必有反函数，无法反推
 # 与原函数的图像关于y=x轴对称
 #*y=f(x)与x=f^^-1^^(y)图像完全一样
 #*y=f(x)与y=f^^-1^^(x)图像关于y=x轴对称
