@@ -1,0 +1,26 @@
+caption: {{||Excerpt}}
+created: 20220129120119753
+creator: 邱桥
+due: 20220130120119753
+interval: 1
+modified: 20220129120626573
+modifier: 邱桥
+priority: 0
+tags: pandas ?
+title: pandas处理缺失值
+tmap.id: e1f17a4e-8393-4aef-83d6-b980a074a03a
+type: text/vnd.tiddlywiki
+
+
+
+#isnull、notnull：检测是否为空值
+#dropna：删除缺失值
+#*axis：等于0或index，删除行；等于1或column，删除列，默认为0
+#*how：等于any，任何值为空值都删除，等与all，所有值为空值才删除
+#*inplace：是否直接修改此数据
+#fillna：填充缺失值
+#*value：用于填充的值，可以是单个值也可以是字典（key是列名，value是值，意思是在key列中填充value）
+#*method : 等于ffill，则使用前一个不为空的值填充forword fill；等于bfill，则使用后一个不为空的值填充backword fill
+#**注意“前一个”的意思是不按此轴的前一个
+#*axis : 按行还是列填充，{0 or ‘index’, 1 or ‘columns’}
+#*inplace : 如果为True则修改当前df，否则返回新的df

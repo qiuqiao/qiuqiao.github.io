@@ -3,7 +3,7 @@ created: 20220128134655573
 creator: 邱桥
 due: 20220129134655573
 interval: 1
-modified: 20220128142812416
+modified: 20220129120756411
 modifier: 邱桥
 priority: 0
 tags: pandas ?
@@ -22,10 +22,10 @@ type: text/vnd.tiddlywiki
 
 
 
-[[pandas读取excel文件]]
+[[pandas读写excel文件]]
 
 <<<.tc-fish-quote
-{{pandas读取excel文件}}
+{{pandas读写excel文件}}
 <<<
 
 

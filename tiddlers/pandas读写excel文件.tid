@@ -1,0 +1,20 @@
+caption: {{||Excerpt}}
+created: 20220128142454054
+creator: 邱桥
+due: 20220129142454054
+interval: 1
+modified: 20220129120756408
+modifier: 邱桥
+priority: 0
+tags: pandas读取文件 ?
+title: pandas读写excel文件
+tmap.id: 15111ab3-904f-43a2-b3e0-bc98768bf29e
+type: text/vnd.tiddlywiki
+
+读：
+
+* data=pd.read_excel(文件地址,skiprows=跳过几行不读取)
+
+写：
+
+* to_excel(文件地址,index=是否保存索引)
