@@ -1,0 +1,16 @@
+created: 20220207071455533
+creator: 邱桥
+draft.of: 太记目前的痛点
+draft.title: 太记目前的痛点
+modified: 20220207074313862
+modifier: 邱桥
+tags: 索引
+title: Draft of '太记目前的痛点' by 邱桥
+tmap.id: 94f219f5-5c5b-470a-8ac9-de23cd7996a5
+type: text/vnd.tiddlywiki
+
+* 字卡片无法收起
+* 标签、双链系统共存且不兼容
+**“孤立”只显示无链接的卡片，不能过滤无标签的卡片
+* 标签系统难可视化
+* 双链系统难以建立反向链接
