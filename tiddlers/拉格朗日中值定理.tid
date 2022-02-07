@@ -1,0 +1,10 @@
+created: 20220207033541722
+creator: 邱桥
+modified: 20220207033703755
+modifier: 邱桥
+tags: 
+title: 拉格朗日中值定理
+tmap.id: 01e6d0ab-5c94-48c5-bf35-0970f6c959ed
+type: text/vnd.tiddlywiki
+
+技巧：加减法补上0和f(0)，乘除法补上1和f(1)
