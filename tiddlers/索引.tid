@@ -1,6 +1,6 @@
 created: 20211227075918364
 creator: TidGiUser
-modified: 20220205092654398
+modified: 20220207081643400
 modifier: 邱桥
 tags: 
 title: 索引
@@ -17,8 +17,13 @@ type: text/vnd.tiddlywiki
 * [[时间管理]]
 * [[算法]]
 
-编程语言
+编程
 
 *[[C++]]
+
 *[[Python]]
-**[[pandas]]
+
+其他
+
+*[[Latex]]
+*[[太记目前的痛点]]
