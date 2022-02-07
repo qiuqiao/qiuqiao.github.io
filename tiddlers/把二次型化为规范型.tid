@@ -1,6 +1,6 @@
 created: 20211230140647648
 creator: 邱桥
-modified: 20211230144436084
+modified: 20220207083236551
 modifier: 邱桥
 tags: 
 title: 把二次型化为规范型
@@ -8,8 +8,8 @@ tmap.id: 93777f08-7e60-48a0-a381-ad9a1b932663
 type: text/vnd.tiddlywiki
 
 #[[把二次型化为标准型及求变换矩阵]]
-# 把标准型中的系数$$\lambda_i$$改为$$\frac{\lambda_i}{|\lambda_i|}$$，得到规范型
-# 把标准型的变换矩阵乘以方阵$$\begin{pmatrix}
+# 把[[标准型]]中的系数$$\lambda_i$$改为$$\frac{\lambda_i}{|\lambda_i|}$$，得到[[规范型]]
+# 把标准型的[[变换矩阵]]乘以[[方阵]]$$\begin{pmatrix}
 \frac{1}{\sqrt{|\lambda_1|}}\\
 &\frac{1}{\sqrt{|\lambda_2|}}\\
 &&\ddots\\
