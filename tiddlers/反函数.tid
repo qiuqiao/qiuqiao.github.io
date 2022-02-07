@@ -6,7 +6,7 @@ grade: -1
 history: []
 interval: 0
 lapses: 0
-modified: 20220205083904596
+modified: 20220205092829251
 modifier: 邱桥
 reps: 1
 retrievability: 1
@@ -21,3 +21,5 @@ type: text/vnd.tiddlywiki
 # 与原函数的图像关于y=x轴对称
 #*y=f(x)与x=f^^-1^^(y)图像完全一样
 #*y=f(x)与y=f^^-1^^(x)图像关于y=x轴对称
+
+求反函数技巧：取-y、e^y、e^-y等值

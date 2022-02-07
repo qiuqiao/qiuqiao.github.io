@@ -1,0 +1,10 @@
+created: 20220205090604861
+creator: 邱桥
+modified: 20220205090900278
+modifier: 邱桥
+tags: 
+title: 根式有理化
+tmap.id: 801e3a5c-2711-474c-9626-15392215572f
+type: text/vnd.tiddlywiki
+
+$$\sqrt a -\sqrt b =\frac{ a-b}{\sqrt a +\sqrt b} $$

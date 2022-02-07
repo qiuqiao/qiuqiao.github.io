@@ -1,0 +1,10 @@
+created: 20220205092028764
+creator: 邱桥
+modified: 20220205092633662
+modifier: 邱桥
+tags: 
+title: 基本积分表
+tmap.id: 62f31567-d01d-4de4-b362-ad0ae6815b96
+type: text/vnd.tiddlywiki
+
+*$$\int \frac{1}{\sqrt{x^2+a^2}} dx=ln(x+\sqrt{x^2+a^2})+C$$对应[[基本求导公式]]
